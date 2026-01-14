@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drugs work</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #ffffff;
+            color: #333333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        a {
+            color: #333333;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            margin: 10px 0;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+        a {
+          position: relative;
+          text-decoration: none;
+          color: #333333;
+        }
+        a::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -2px;
+          width: 0;
+          height: 1px;
+          background: #666666;
+          transition: width 0.3s ease, opacity 0.3s ease;
+          opacity: 0;
+        }
+        a:hover::after {
+          width: 100%;
+          opacity: 1;
+        }
+        a:active::after {
+          opacity: 0;
+        }
+        p.contact {
+            color: #888888;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>casa de virgil</h1>
+    <a href="https://drugs.work" target="_blank">convince me otherwise</a>
+    <br><br><br><br><br>
+    <p class="contact">hi [at] drugs [dot] work</p>
+</body>
+</html>
